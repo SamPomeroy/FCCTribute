@@ -29,11 +29,11 @@ body {
 .image {
     object-fit: contain;
     border-radius: 15px;
-    max-width: 100px;
+    max-width: 100%;
     display: block;
     height: auto;
     margin: auto;
-    
+}    
 .caption {
     padding-top: 5px;
 }
@@ -54,6 +54,10 @@ body {
 .bold {
     font-weight: bold;
 
+}
+.tribute-info {
+    font-weight: 100;
+    
 }
 li {
     margin: 20px;
